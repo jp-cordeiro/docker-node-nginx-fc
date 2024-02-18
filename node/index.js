@@ -54,7 +54,7 @@ const getPeople = async () => {
 
 app.get('/', async (req, res) => {
   try {
-    const title = '<h1>Full Cycle</h1>';
+    const title = '<h1>Full Cycle</h1> <br/> <h3> - Lista de nomes cadastrada no banco de dados. </h3>';
     const listPeopleComponent = await getPeople();
 
     const response = await new Promise((resolve, reject) => {
