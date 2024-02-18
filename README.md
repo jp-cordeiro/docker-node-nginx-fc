@@ -22,4 +22,4 @@ Suba tudo em um repositório e faça a entrega.
 docker-compose up -d
 ```
 
-- Para acessar basta apenas acessar no navegador: http://localhost:8080
+- Após subir os containers, basta apenas acessar no navegador: http://localhost:8080
