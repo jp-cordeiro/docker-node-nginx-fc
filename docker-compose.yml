@@ -21,6 +21,7 @@ services:
     command: ['node', 'index.js']
     volumes:
       - ./node:/usr/src/app
+      - /usr/src/app/node_modules
     restart: no
     tty: true
     networks:
